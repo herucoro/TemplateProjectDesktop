@@ -1,0 +1,1 @@
+﻿This directory include some files what you want to secret data.

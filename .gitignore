@@ -4,7 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # Add my directories
-Secret/
+TemplateProjectDesktop/Secret/*
+!TemplateProjectDesktop/Secret/README.md
 
 # User-specific files
 *.rsuser

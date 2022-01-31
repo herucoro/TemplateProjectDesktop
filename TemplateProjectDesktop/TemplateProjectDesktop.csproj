@@ -50,6 +50,8 @@
     <Compile Include="Common\IData.cs" />
     <Compile Include="Database\Common\DatabaseCommon.cs" />
     <Compile Include="Database\Common\MZZAction.cs" />
+    <Compile Include="Database\Controllers\Controller.cs" />
+    <Compile Include="Database\Models\Model.cs" />
     <Compile Include="Secret\Secret.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -80,13 +82,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Secret\README.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Database\Controllers\" />
-    <Folder Include="Database\Models\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
