@@ -3,8 +3,8 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# Add my files
-Common/secret.cs
+# Add my directories
+Secret/
 
 # User-specific files
 *.rsuser
